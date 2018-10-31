@@ -1,4 +1,4 @@
-define(['ko', 'src/NewTodoItemView', 'src/TodoListView'], function(ko, NewTodoItemView, TodoListView) {
+define(['src/NewTodoItemView', 'src/TodoListView'], function(NewTodoItemView, TodoListView) {
    function MyTodoView() {
       var newTodoItemView = new NewTodoItemView();
       var todoListView = new TodoListView();
